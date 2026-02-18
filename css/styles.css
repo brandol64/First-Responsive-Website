@@ -1,0 +1,32 @@
+:root {
+            --dark-blue: #000000;
+            --light-green: #000000;
+            --yellow: #ffffff;
+            --orange: #ffffff;
+            --salmon: #ffffff;
+        }
+
+        .container {
+            color: var(--dark-blue);
+            font-size: 20px;
+            font-weight: bold;
+            background-color: var(--yellow);
+
+        }
+
+        .row {
+            border: 1.5px solid var(--dark-blue);
+
+        }
+
+        [class^="col-"] {
+            border: 1px solid var(--light-green);
+
+        }
+
+ .resized {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
