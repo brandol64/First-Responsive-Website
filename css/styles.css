@@ -1,6 +1,5 @@
 :root {
             --dark-blue: #000000;
-            --light-green: #000000;
             --yellow: #ffffff;
             --orange: #ffffff;
             --salmon: #ffffff;
@@ -28,5 +27,7 @@
   width: 600px;
   height: 400px;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: none;
 }
-
